@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "title": { "zh": "DSH 本地插件索引", "en": "DSH Local Plugin Index" },
+  "description": {
+    "zh": "本机自建的最小索引源，列出 DSH 官方实验性组合包，便于在「发现」标签页浏览与安装。",
+    "en": "A locally built minimal index listing DSH's official experimental bundles."
+  },
+  "metadata": {
+    "categories": {
+      "experimental": { "title": { "zh": "实验性功能", "en": "Experimental" } },
+      "skills": { "title": { "zh": "技能扩展", "en": "Skills" } }
+    },
+    "labels": {
+      "official": { "title": { "zh": "官方", "en": "Official" } }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@deepseek-ai/dsh-experimental-terminal-bundle",
+      "title": { "zh": "终端面板", "en": "Terminal panel" },
+      "description": { "zh": "在 Web 界面中提供终端能力。", "en": "Terminal support inside the Web UI." },
+      "author": "DeepSeek",
+      "metadata": { "category": "experimental", "labels": ["official"], "keywords": ["terminal", "shell"] },
+      "versions": [
+        { "version": "0.2.1-rc.5", "publishTimestamp": 1761993600, "source": { "type": "npm" }, "engines": { "dsh": ">=0.2.1-rc.5" } }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-session-search",
+      "title": { "zh": "会话搜索", "en": "Session search" },
+      "description": { "zh": "在历史会话中检索内容。", "en": "Search across past sessions." },
+      "author": "DeepSeek",
+      "metadata": { "category": "experimental", "labels": ["official"], "keywords": ["search", "session"] },
+      "versions": [
+        { "version": "0.2.1-rc.5", "publishTimestamp": 1761993600, "source": { "type": "npm" }, "engines": { "dsh": ">=0.2.1-rc.5" } }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-ralph-bundle",
+      "title": { "zh": "Ralph 循环任务", "en": "Ralph loop" },
+      "description": { "zh": "自动迭代执行任务（Ralph 模式）。", "en": "Automated iterative task loop (Ralph)." },
+      "author": "DeepSeek",
+      "metadata": { "category": "experimental", "labels": ["official"], "keywords": ["ralph", "loop", "agent"] },
+      "versions": [
+        { "version": "0.2.1-rc.5", "publishTimestamp": 1761993600, "source": { "type": "npm" }, "engines": { "dsh": ">=0.2.1-rc.5" } }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-cot-translation-bundle",
+      "title": { "zh": "思维链翻译", "en": "CoT translation" },
+      "description": { "zh": "把模型的思考过程翻译成目标语言展示。", "en": "Translate the model's chain of thought." },
+      "author": "DeepSeek",
+      "metadata": { "category": "experimental", "labels": ["official"], "keywords": ["translation", "cot"] },
+      "versions": [
+        { "version": "0.2.1-rc.5", "publishTimestamp": 1761993600, "source": { "type": "npm" }, "engines": { "dsh": ">=0.2.1-rc.5" } }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-session-titles-bundle",
+      "title": { "zh": "会话自动标题", "en": "Session titles" },
+      "description": { "zh": "为会话自动生成标题。", "en": "Generate session titles automatically." },
+      "author": "DeepSeek",
+      "metadata": { "category": "experimental", "labels": ["official"], "keywords": ["title", "session"] },
+      "versions": [
+        { "version": "0.2.1-rc.5", "publishTimestamp": 1761993600, "source": { "type": "npm" }, "engines": { "dsh": ">=0.2.1-rc.5" } }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-voice-input-bundle",
+      "title": { "zh": "语音输入", "en": "Voice input" },
+      "description": { "zh": "在输入框中提供语音转文字。", "en": "Speech-to-text in the composer." },
+      "author": "DeepSeek",
+      "metadata": { "category": "experimental", "labels": ["official"], "keywords": ["voice", "speech"] },
+      "versions": [
+        { "version": "0.2.1-rc.5", "publishTimestamp": 1761993600, "source": { "type": "npm" }, "engines": { "dsh": ">=0.2.1-rc.5" } }
+      ]
+    }
+  ]
+}
